@@ -1,0 +1,35 @@
+Setup for running the program
+
+1. Go to CreateAccount.cs file 
+	1. Inside CreateAccountInfoFile() method change the PATH VARIABLE to the absolute path in which all the C# files are including "accounts" folder 
+	(Basically go to the BankManagementSystem folder you can see in the current directory and copy the path when you are in BankManagementSystem Folder)
+
+2. Go to SearchAccount.cs file
+	1. Inside FindAccountFile() method change the string of "folderPath" to the same absolute path of last step (Repeat Step 1 and change value of varibale "folderPath")
+
+3. Go to AccountNumberGenerator.cs file
+	1. Inside GetNewAccountNumber() method Repeat the process of Step 2 and change value of variable "folderPath"
+
+4. Inside Login.cs 
+	1. In LoginVerify() method change the value of the variable "filepath" to the same as the one you did for Step 1
+
+** Please Make Sure the @ character is present before the string so that you don't have to add extra '\'
+
+5. Go to Email.cs file
+	1. Inside SendEmail() method
+		1. Change the value of variable "from" to the EMAIL ADDRESS from which you want to send emails
+		2. Change the variable "password" value to the password of your email
+		** IF YOU ARE USING GMAIL as Sender email id -
+			# Go to this link -  https://support.google.com/accounts/answer/185833
+			Follow the instructions to generate app password as Gmail doesn't allow to send email from 3rd party without it
+			# Use that generated password as the value of the password variable
+
+	2. Inside EmailSend() method
+		1. If you are using Outlook as sender email account then ->
+			1. Instead of using ->  client.Host = "smtp.gmail.com"; 
+				Use client.Host = "smtp.office365.com";
+				
+*** CAUTION: Please clear out value of "password" variable after use for safety (BETTER TO USE ENVIRONMENT VARIABLE)
+
+
+

@@ -1,0 +1,14 @@
+Account No: 1000001
+Account Balance: 2000
+First Name: Oliver
+Last Name: Queen
+Address: Sydney
+Phone: 19289122
+Email: oliver@gmail.com
+
+Transaction:
+Withdraw 2000 Sunday, 01 September 2019 21:00:39
+Deposit 2000 Sunday, 01 September 2019 20:59:37
+Deposit 1000 Sunday, 01 September 2019 20:58:34
+Deposit 1000 Sunday, 01 September 2019 20:49:42
+
